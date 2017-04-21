@@ -1,0 +1,279 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>SEPTA | Next To Arrive</title>
+<link rel="icon" type="image/png" href="http://www.septa.org/site/images/septawhite.png" />
+<link rel="stylesheet" href="http://www.septa.org/site/css/reset.css" media="all" />
+<link rel="stylesheet" href="http://www.septa.org/site/css/main.css" media="all" />
+<link rel="stylesheet" href="http://www.septa.org/site/css/menu_style.css" media="all"/>
+<link type="text/css" href="http://www.septa.org/site/css/ui.all.css" rel="stylesheet" />
+<link type="text/css" href="http://www.septa.org/site/css/ui.datepicker.css" rel="stylesheet" />
+<link type="text/css" href="http://www.septa.org/site/css/ui.theme.css" rel="stylesheet" />
+<link type="text/css" href="http://www.septa.org/site/css/routestyles.css" rel="stylesheet" />
+<script type="text/javascript" src="http://www.septa.org/site/js/datefinder.js"></script>
+
+<!--[if IE]>
+	<link rel="stylesheet" href="http://www.septa.org/site/css/ie.css" media="all" type="text/css">
+<![endif]-->
+<!--[if IE 6]>
+	<link rel="stylesheet" href="http://www.septa.org/site/css/ie6.css" media="all" type="text/css">
+<![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper" class="clearfix">
+<div id="septa_header">
+  <h1>
+    <a href="http://www.septa.org">
+      <img src="http://www.septa.org/site/images/logo.gif" alt="SEPTA" />
+    </a>
+  </h1>
+  <p id="septa_callout">
+    Southeastern Pennsylvania Transportation Authority <span><strong>Serving</strong> Bucks, Chester, Delaware, Montgomery, and Philadelphia Counties</span>
+  </p>
+  <div id="septa_date">
+     <div class="time_container">
+    </div>
+<form action="http://www.septa.org/search/index.html" id="searchbox_017501152079099958693:snybqfe4lsw">
+  <input type="hidden" name="cx" value="017501152079099958693:snybqfe4lsw" />
+  <input type="hidden" name="cof" value="FORID:11" />
+  <input id="septa_header_search" type="text" name="q"/>
+  <input id="septa_header_search_image" name="header_search_image" type="image" src="http://www.septa.org/site/images/searchButton.gif" alt="go"/>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017501152079099958693%3Asnybqfe4lsw"></script>
+  </div>
+  <div id="septa_top_navigation" class="round_top_home">
+    <ul id="nav">
+      <li id="getting_around" class="nav_heading"><a class="top_navlink" href="http://www.septa.org/around">Getting Around</a>
+        <ul>
+          <li><a href="http://www.septa.org/welcome">welcome</a></li>
+          <li><a href="http://www.septa.org/service">service</a></li>
+          <li><a href="http://www.septa.org/schedules">schedules</a></li>
+          <li><a href="http://www.septa.org/fares">fares</a></li>
+          <li><a href="http://www.septa.org/maps">maps &amp; stations</a></li>
+          <li><a href="http://www.septa.org/alert">alerts &amp; advisories</a></li>
+          <li class="last_sub"><a href="http://www.septa.org/connect">connecting services</a></li>
+        </ul>
+      </li>
+      <li id="experience" class="nav_heading"><a class="top_navlink" href="http://www.septa.org/ride">Ride</a>
+        <ul>
+          <li><a href="http://www.septa.org/environment">traveling green</a></li>
+          <li><a href="http://www.septa.org/access">accessibility</a></li>
+          <li><a href="http://www.septa.org/construction">construction work</a></li>
+          <li><a href="http://www.septa.org/safety">safety &amp; security</a></li>
+          <li class="last_sub"><a href="http://www.septa.org/partners">partners</a></li>
+        </ul>
+      </li>
+      <li id="customer_service" class="nav_heading"><a class="top_navlink" href="http://www.septa.org/cs">Customer Service</a>
+        <ul>
+          <li><a href="http://www.septa.org/cs/comment">Comment</a></li>
+          <li><a href="http://www.septa.org/cs/survey">Survey</a></li>
+          <li><a href="http://www.septa.org/cs/ask">Frequently Asked</a></li>
+          <li><a href="http://www.septa.org/cs/etiquette">passenger Etiquette</a></li> 
+          <li class="last_sub"><a href="http://www.septa.org/cs/contact">Contact Us</a></li>
+        </ul>
+      </li>
+      <li id="media" class="nav_heading"><a class="top_navlink" href="http://www.septa.org/media">Media</a>
+        <ul>
+          <li><a href="http://www.septa.org/releases">News &amp; Press Releases</a></li>
+          <li><a href="http://www.septa.org/reports">Reports &amp; Images</a></li>
+          <li><a href="http://www.septa.org/policy">Policies</a></li>
+          <li><a href="http://www.septa.org/about/gm">General Manager</a></li>
+          <li class="last_sub"><a href="http://www.septa.org/about/board">Board Members</a></li>
+        </ul>
+      </li>
+      <li id="careers" class="nav_heading"><a class="top_navlink" href="http://autohire.careershop.com/septajobs/">Careers</a></li>
+      <li class="last"><a class="top_navlink" href="http://www.septa.org/business">Business</a>
+        <ul>
+          <li><a href="http://www.septa.org/business/procurement">procurement</a></li>
+          <li class="last_sub"><a href="http://www.septa.org/store">transit gift store</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <div id="septa_left_navigation">
+    <h2><span>Choose</span> Your Service</h2>
+    <ul id="septa_choose_service" class="clearfix">
+      <li id="septa_rail">
+        <div id="rail_arrow"></div>
+        <img class="septa_color_id" src="http://www.septa.org/site/images/rr_colorid.gif" alt="Regional Rail"/><a href="http://www.septa.org/service/rail">Regional Rail</a></li>
+      <li id="septa_market_frankford_line">
+        <div id="mfl_arrow"></div>    
+        <img class="septa_color_id" src="http://www.septa.org/site/images/mfl_colorid.gif" alt="Market-Frankford Line"/><a href="http://www.septa.org/service/mfl">Market-Frankford Line</a></li>
+      <li id="septa_broad_street_line">
+        <div id="broad_street_arrow"></div>
+        <img class="septa_color_id" src="http://www.septa.org/site/images/bsl_colorid.gif" alt="Broad Street Line"/><a href="http://www.septa.org/service/bsl">Broad Street Line</a></li>
+      <li id="septa_trolleys">
+        <div id="trolley_arrow"></div>
+        <img class="septa_color_id" src="http://www.septa.org/site/images/trolley_colorid.gif" alt="Trolley Lines"/><a href="http://www.septa.org/service/trolley">Trolley Lines</a></li>
+      <li id="septa_norristown_line">
+        <div id="norristown_arrow"></div>
+        <img class="septa_color_id" src="http://www.septa.org/site/images/nhs_colorid.gif" alt="Norristown High Speed Line"/><a href="http://www.septa.org/service/highspeed">Norristown High Speed Line</a></li>
+      <li id="septa_buses">
+        <div id="septa_arrow"></div>
+        <img  class="septa_color_id" src="http://www.septa.org/site/images/buses_colorid.gif" alt="Buses"/><a href="http://www.septa.org/service/bus">Buses</a></li>
+        <li class="last" id="cct_rail">
+        <div id="cct_arrow"></div>
+        <img class="septa_color_id" src="http://www.septa.org/site/images/cct_colorid.gif" alt="CCT Connect"/><a href="http://www.septa.org/service/cct">CCT Connect</a></li>
+    </ul>
+    <h2 class="septa_title_float"><span>Trip</span> Planner</h2>
+    <p id="viewmap"><a href="http://www.septa.org/maps/system">System Map</a></p>
+    <form name="simplePlanner" method="GET" id="septa_location_destination_planner">
+      <div class="septa_destination_container"> <img src="http://www.septa.org/site/images/fromArrow.gif" alt="beginning location" />
+        <input id="from" name="from" type="text" value="From"/>
+      </div>
+      <div class="septa_destination_container"> <img src="http://www.septa.org/site/images/toArrow.gif" alt="final destination" />
+        <input id="to" name="to" type="text" value="To" />
+      </div>
+        <input type="text" onblur="checkWeekday('0','0','')" id="datepicker" name="date" class="calendar_img">
+        <input type="text" title="" value="04:30 PM" name="time" id="time"/>
+      <div class="gray_container round_all">
+        <input type="radio" value="depart" name="timesel" id="timesel" class="checkboxes"/>
+        <label id="departing" for="timesel">Departing</label>
+        <input type="radio" value="arrive" name="timesel" id="timesel"  class="checkboxes"/>
+        <label id="arriving" for="timesel">Arriving</label>
+      </div>
+      <p class="septa_trip_planner_apps">
+        <input type="button" class="planner_button" value="Google Transit" onclick='return buildURL();'>
+        <span>or</span>
+        <input type="button" class="planner_button" value="Plan My Trip" onclick='return planTRIP();'>
+      </p>
+    </form>
+    <div class="septa_trip_planner_links_container">
+    	  <p>This browser does not have Javascript enabled.</p>
+        <p>Please enable Javascript in the browser settings, or use these links to plan a trip:</p>
+        <p class="links"><a href="http://www.google.com/transit">Google Transit</a> or <a href="http://airs1.septa.org/bin/query.exe/en?">Plan My Trip</a></p>
+    </div>
+    <h2><span>Quick</span> Links</h2>
+    <ul id="septa_quick_links">
+      <li><a href="http://www.septa.org/schedules"><img src="http://www.septa.org/site/images/schedulesIcon.gif" alt="Schedules" /></a>
+        <p class="septa_quick_links_image_description">Schedules</p>
+      </li>
+      <li><a href="http://www.septa.org/maps"><img src="http://www.septa.org/site/images/mapsIcon.gif" alt="Maps" /></a>
+        <p class="septa_quick_links_image_description">Maps</p>
+      </li>
+      <li><a href="http://www.septa.org/fares"><img src="http://www.septa.org/site/images/fareIcon.gif" alt="Fares" /></a>
+        <p class="septa_quick_links_image_description">Fares</p>
+      </li>
+      <!--'Alerts' replaced with 'System Status' 2.25.2014 -->
+      <li><a href="http://www.septa.org/realtime/status/system-status.shtml"><img src="http://www.septa.org/site/images/alertsIcon-new.gif" alt="System Status" /></a>
+        <p class="septa_quick_links_image_description">System<br>Status</p>
+      </li>
+
+    </ul>
+  </div>
+  <div id="septa_main_content">
+    <div class="full_col" id="nta_content">
+      <div class="title_img clearfix">
+        <p id="train_time">6:08pm</p>
+        <h1>Next To Arrive</h1>
+      </div>
+      <div class="col_content"><p class="nta_advisory system_ad">
+      <!--<span>System Advisory: </span>-->
+      <strong>Lansdale/Doylestown</strong>: Inbound train #567 is experiencing delays of up to 10 minutes.<br /></p>
+
+<!-- start added 2.25.2014 -->
+
+      <ul class="nta_advisory system_ad">
+     	 <li class="first">
+     		<img src="http://www.septa.org/site/images/fromArrow.gif" alt="beginning location"/><span>Ft Washington</span>  
+     	 </li>
+	 <li>
+      		<img src="http://www.septa.org/site/images/toArrow.gif" alt="final destination"/><span>30th Street Station</span> 
+	 </li>
+      </ul>  
+
+     <div id="nta_page">
+<!-- end added 2.25.2014 -->
+
+        <!--<TABLE id="train_table" border="0" align="CENTER" bgcolor="#e6e6e6" width="100%" cellpadding="1" cellspacing="0">-->
+        <TABLE id="train_table" class="nta" bgcolor="#f2f1f0" summary="SEPTA Next To Arrive"  width="100%" cellpadding="1" cellspacing="0">
+          <colgroup id="nta_train_no">
+          </colgroup>
+          <colgroup id="nta_line">
+          </colgroup>
+          <colgroup id="nta_departs">
+          </colgroup>
+          <colgroup id="nta_arrives">
+          </colgroup>
+           <colgroup id="nta_connect">
+          </colgroup>
+           <colgroup id="nta_status">
+          </colgroup>
+         
+          <tr class="tv_headings">
+            <th>Train #</th>
+            <th>Line</th>
+            <th>Departs</th>
+            <th>Arrives</th>
+            <th>Connect At</th>
+            <th>Status</th>
+          </tr>
+          <tr  class="odd" ></td><td>575</td><td>Lansdale/Doylestown</td><td> 6:15PM</td><td> 6:55PM</td><td>-</td><td>On time</td></tr>
+<tr ></td><td>577</td><td>Lansdale/Doylestown</td><td> 6:29PM</td><td> 7:14PM</td><td>-</td><td>On time</td></tr>
+<tr  class="odd" ></td><td>579</td><td>Lansdale/Doylestown</td><td> 7:09PM</td><td> 7:49PM</td><td>-</td><td>On time</td></tr>
+<tr ></td><td>581</td><td>Lansdale/Doylestown</td><td> 7:49PM</td><td> 8:29PM</td><td>-</td><td>On time</td></tr>
+          
+        </TABLE>
+      <!-- start added 2.25.2014 -->
+        </div>
+      <!-- end added 2.25.2014 -->
+        <p class="nta_advisory">
+        <!--<span>Line Advisory: </span>--></p>
+        <p><a class="ntv_newtrip" href="index.html"></a></p> <!-- remove 'New Trip' literal.  Overwrote button image text. -->
+      </div>
+    </div>
+  </div>
+  <div id="septa_footer">
+      <h2>
+
+<!-- start added 2.25.2014 -->
+ <span class="ficons">
+  <a href="http://www.septa.org/cs/chat/index.html"><img alt="Chat" src="http://www.septa.org/site/images/chat.gif" /></a>&nbsp;
+  <a href="http://www.septa.org/rss/index.html"><img alt="RSS Feed" src="http://www.septa.org/site/images/rss.gif" /></a>&nbsp;
+  <a href="http://bit.ly/septafb"><img alt="Facebook" src="http://www.septa.org/site/images/facebook.gif" /></a>&nbsp;
+  <a href="http://www.twitter.com/septa"><img alt="Twitter" src="http://www.septa.org/site/images/twitter.gif" /></a>&nbsp;
+  <a href="http://www.youtube.com/septainmotion"><img alt="YouTube" src="http://www.septa.org/site/images/youtube.gif" /></a>&nbsp;
+  <a href="http://itunes.apple.com/us/podcast/inmotion-presented-by-septa/id372817726"><img alt="iTunes" src="http://www.septa.org/site/images/itunes.gif" /></a>
+ </span>
+<!-- end added 2.25.2014 -->
+      
+      <span>Contact </span>Us</h2>
+    <div>
+<!-- WorldLingo Inc translate links removed 2.25.2014 -->
+
+    <div style='float: left;'>    
+     <ul id="contact_us">
+        <li><a class="underline" href="http://www.septa.org/cs/comment">Online Comment Form</a></li>
+        <li><span>Phone: (215) 580 7800</span></li>
+        <li><span class="last">TDD/TTY: (215) 580 7853</span></li>
+      </ul>
+      <p id="address">1234 Market Street Philadelphia, PA 19107</p>
+      <p id="copyright"><a href="http://www.septa.org/site/copyright.html">Copyright &copy; SEPTA | All rights Reserved</a></p>
+    </div>
+  </div> <!-- closing div tag directly below 'Contact Us' -->
+</div>
+</body>
+<script type="text/javascript" src="http://www.septa.org/site/js/DD_roundies.js"></script>
+<script type="text/javascript" src="http://www.septa.org/site/js/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="http://www.septa.org/site/js/ui.datepicker.js"></script>
+	<script type="text/javascript" src="http://www.septa.org/site/js/ui.core.js"></script>
+		<script type="text/javascript" src="http://www.septa.org/site/js/ui.tabs.js"></script>
+
+	<script type="text/javascript" src="http://www.septa.org/site/js/init.js"></script>
+
+<script type="text/javascript">
+	$(function() {
+		$("#datepicker").datepicker();
+		$("#ui-datepicker-div").addClass("round_all");
+		$(".ui-datepicker-header").addClass("round_top");
+	});
+	</script>
+</html>
