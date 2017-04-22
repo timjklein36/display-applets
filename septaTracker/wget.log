@@ -1,11 +1,11 @@
---2017-04-22 16:41:33--  http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station
+--2017-04-22 18:33:06--  http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station
 Resolving app.septa.org... 34.197.181.76, 52.87.29.1, 54.87.234.36
 Connecting to app.septa.org|34.197.181.76|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [text/html]
 Saving to: ‘STDOUT’
 
-     0K .......... ....                                         361K=0.04s
+     0K .......... .....                                        732K=0.02s
 
-2017-04-22 16:41:34 (361 KB/s) - written to stdout [15256]
+2017-04-22 18:33:06 (732 KB/s) - written to stdout [15623]
 

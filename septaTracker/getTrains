@@ -1,11 +1,57 @@
-#!/bin/bash
+#! /bin/bash
+# ------------------------------------------------------------------
+# GetTrains - Shell Script
+# SEPTA Next-to-arrive train information
+# ------------------------------------------------------------------
+# Provide two locations (start first, end second) as arguments.
+# Valid Locations and syntax are listed in ./locations file.
+#
+# EXAMPLE USAGE
+#
+# ./getTrains Elkins+Park 30th+Street+Station
+# ./getTrains Starting+Location End+Destination
+#
+# Note the use of '+' in location names. Check ./locations for all
+# valid names listed on SEPTA's site.
+#
+# WARNING: connecting trains output is a little funky. The
+# connecting train's info is listed directly beside the initial.
+# ------------------------------------------------------------------
 
 START=$1
 END=$2
 
+if [ "$START" = "" ] || [ "$END" = "" ]; then
+	echo "Too few arguments (provide two locations)"; exit 10; fi
+if [ "$3" != "" ]; then
+	echo "Too many arguments (provide two locations)"; exit 11; fi
+
+while read line; do
+	if [ "$START" = "$line" ]; then startCheck=true; fi
+	if [ "$END" = "$line" ]; then endCheck=true; fi
+done < locations
+
+if [[ "$startCheck" = true && "$endCheck" = true ]]; then
+	echo -e "\n$START to $END" | sed -e 's/+/ /g'
+	URL="http://app.septa.org/nta/result.php?loc_a=$START&loc_z=$END"
+else
+	echo "An invlaid location has been supplied!"
+	echo "Check ./locations for valid input."
+	exit 11
+fi
+
 # Get next 4 train info from specified line
 
-wget -o wget.log -O- "http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station" | 
-	grep "<td>" | 
-	cut -d '>' -f 4,6,8,10,14,19,21,23,25,29,34,36,38,40,44,49,51,53,55,59 |
-	sed -e 's/<\/td>/ /g' -e 's/<\/td/ /g'
+wget -o wget.log -O- $URL |
+	grep "<td>" |
+	sed -e 's/<tr  class=\"odd\" >//g' -e 's/<\/td>/ /g' -e 's/<\/td>/ /g' |
+	sed -e 's/<tr >//g' -e 's/<td>//g' -e 's/<br>/-/g' -e 's/<\/tr>//g' |
+	sed -e 's/          //g' |
+	cut -d ' ' -f 2-
+
+# Get announcment and warning info
+wget -o wget.log -O- $URL |
+	grep "<strong>" |
+	sed -e 's/<\/span>/\%/g' -e 's/<br \/>/\n/g' -e 's/<strong>//g' |
+	sed -e 's/<\/p>//g' -e 's/<\/strong>//g' -e 's/      //g' |
+	cut -d '%' -f 2
