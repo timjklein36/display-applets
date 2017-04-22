@@ -1,0 +1,33 @@
+#!/bin/bash
+
+read_info () {
+	local IFS=\>
+	read -d \< ENTITY CONTENT
+}
+
+declare -a train_info
+count=0
+
+while read_info; do
+	if [[ $ENTITY = "td" ]]; then
+		#echo $CONTENT
+		if [[ $CONTENT != "-" ]]; then
+			train_info[count]=$CONTENT
+			count=$[$count+1]
+		fi
+	fi
+done
+
+num=$[$count]
+count=0
+
+echo -e "\nTrain #\t\tLine\t\t\t\tDeparts\t\tArrives\t\tStatus\n"
+
+while (("$count" < "num")); do
+	echo -e "${train_info[$count]}\t\t${train_info[$count+1]}\t\t${train_info[$count+2]}\t\t${train_info[$count+3]}\t\t${train_info[$count+4]}"
+	count=$[$count+5]
+done
+
+echo
+
+exit 0

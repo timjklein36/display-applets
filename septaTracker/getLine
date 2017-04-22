@@ -1,10 +1,8 @@
 #!/bin/bash
 
-read_info () {
-	local IFS=
-}
-
 # Get next 4 train info from Lansdale/Doylestown line (thru Ft. Wash. to Center City)
 # Includes any notice or announcment that has the tag "Lansdale/Doylestown"
 TRAINS=$(wget -o ft230.log -O- "http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station" | grep 'Lansdale/Doylestown')
+
+echo $TRAINS
 
