@@ -1,0 +1,11 @@
+#!/bin/bash
+
+START=$1
+END=$2
+
+# Get next 4 train info from specified line
+
+wget -o wget.log -O- "http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station" | 
+	grep "<td>" | 
+	cut -d '>' -f 4,6,8,10,14,19,21,23,25,29,34,36,38,40,44,49,51,53,55,59 |
+	sed -e 's/<\/td>/ /g' -e 's/<\/td/ /g'
