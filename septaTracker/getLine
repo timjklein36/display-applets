@@ -1,4 +1,6 @@
 #!/bin/bash
 
-# Get Landsdale/Doylestown (Ft. Wash to 30th)
-wget -o ft230.log -O fort2thirtieth "http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station"
+# Get next 4 train info from Lansdale/Doylestown line (thru Ft. Wash. to Center City)
+TRAINS=$(wget -o ft230.log -O- "http://app.septa.org/nta/result.php?loc_a=Ft+Washington&loc_z=30th+Street+Station" | grep 'Lansdale/Doylestown')
+
+echo $TRAINS
