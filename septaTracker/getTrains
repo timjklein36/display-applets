@@ -29,7 +29,7 @@ if [ "$3" != "" ]; then
 while read line; do
 	if [ "$START" = "$line" ]; then startCheck=true; fi
 	if [ "$END" = "$line" ]; then endCheck=true; fi
-done < locations
+done < ./locations
 
 if [[ "$startCheck" = true && "$endCheck" = true ]]; then
 	echo -e "\n$START to $END" | sed -e 's/+/ /g'
