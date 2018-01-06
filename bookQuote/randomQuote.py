@@ -20,8 +20,8 @@ def unescape(s):
 
 def quotefrom(bookfile):
 	with open(bookfile, "r") as fp:
-		book = fp.read().split(bookfile.split(".")[0].upper())[4:]
-		quoteBlock = unescape(randel(quotes(escape(" ".join(book)))))
+		book = fp.read()
+		quoteBlock = unescape(randel(quotes(escape(book))))
 		match = re.match(r'\"[^"]*\"[^.]*\.', quoteBlock)
 		if match:
 			return match[0]
@@ -29,6 +29,6 @@ def quotefrom(bookfile):
 			return '!!!!!!'
 
 for i in range(15):
-	print("> ", quotefrom("dracula.txt"))
+	print("> ", quotefrom("mortal coils.txt"))
 	print()
 

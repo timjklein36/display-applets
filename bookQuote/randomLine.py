@@ -19,10 +19,10 @@ def unescape(s):
 
 def linefrom(bookfile):
 	with open(bookfile, "r") as fp:
-		book = fp.read().split(bookfile.split(".")[0].upper())[4:]
-		return unescape(randel(sentences(escape(" ".join(book))))) + "."
+		book = fp.read()
+		return unescape(randel(sentences(escape(book)))) + "."
 
 for i in range(15):
-	print("> ", linefrom("dracula.txt"))
+	print("> ", linefrom("two cities.txt"))
 	print()
 
