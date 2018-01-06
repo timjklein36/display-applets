@@ -1,13 +1,12 @@
 #!/bin/env python3
 # ----------------------------------------------------------
-# RandomQuote
+# RandomLine
 #-----------------------------------------------------------
 
 from random import randint
-import re
 
-def quotes(book):
-	return re.split(r'[ ](?=\"[^"]*\"[^.]*\.)', book)
+def sentences(book):
+	return book.split(".")
 
 def randel(list):
 	return list[randint(0, len(list))]
@@ -18,17 +17,12 @@ def escape(s):
 def unescape(s):
 	return s.replace("Mrs@", "Mrs.").replace("Dr@", "Dr.").replace("Mr@", "Mr.").replace("\n", " ")
 
-def quotefrom(bookfile):
+def linefrom(bookfile):
 	with open(bookfile, "r") as fp:
 		book = fp.read().split(bookfile.split(".")[0].upper())[4:]
-		quoteBlock = unescape(randel(quotes(escape(" ".join(book)))))
-		match = re.match(r'\"[^"]*\"[^.]*\.', quoteBlock)
-		if match:
-			return match[0]
-		else:
-			return '!!!!!!'
+		return unescape(randel(sentences(escape(" ".join(book))))) + "."
 
 for i in range(15):
-	print("> ", quotefrom("dracula.txt"))
+	print("> ", linefrom("dracula.txt"))
 	print()
 
