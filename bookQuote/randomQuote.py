@@ -26,7 +26,7 @@ def quotefrom(bookfile):
 		if match:
 			return match[0]
 		else:
-			return '!!!!!!'
+			return '!!!!!!\n' + quoteBlock + '\n'
 
 for i in range(15):
 	print("> ", quotefrom("mortal coils.txt"))
